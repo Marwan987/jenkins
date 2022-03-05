@@ -1,4 +1,3 @@
 #!/bin/sh
-
-Value=($($NUMBERONE+$NUMBERTWO))
+Value=($(($NUMBERONE+$NUMBERTWO)))
 echo "$Value"
